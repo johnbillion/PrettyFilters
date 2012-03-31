@@ -1,4 +1,4 @@
-=== Pretty Media ===
+=== Pretty Filters ===
 Contributors: johnbillion
 Tags: ui, filters, search, admin
 Requires at least: 3.3
