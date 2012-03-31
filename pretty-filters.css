@@ -1,0 +1,79 @@
+
+.tablenav {
+	float: right;
+	width: 23.5%;
+	display: block;
+	height: auto;
+	background: #f9f9f9;
+	border: 1px solid #dfdfdf;
+	padding: 15px;
+	border-radius: 3px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 0 15px 1.5%;
+}
+
+.tablenav.bottom {
+	float: left;
+	clear: none;
+}
+
+.tablenav .alignleft {
+	float: none;
+	padding: 0;
+}
+
+.search-box,
+.tablenav.top select[name="action"],
+#doaction,
+.tablenav.bottom a.checkforspam,
+.tablenav .clear {
+	display: none;
+}
+
+.tablenav.top input[name="s"],
+.tablenav.top select,
+.tablenav.bottom select {
+	display: block;
+	width: 99% !important;
+	margin-bottom: 10px;
+}
+
+.wrap table.comments,
+.wrap table.wp-list-table {
+	float: left;
+	clear: none;
+	width: 75%;
+}
+
+.tablenav a.checkforspam {
+	display: inline-block;
+}
+
+.tablenav.top .tablenav-pages {
+	float: none;
+	margin-top: 15px;
+	border-top: 1px dashed #dfdfdf;
+	padding-top: 5px;
+	height: auto;
+}
+
+.tablenav.top .view-switch {
+	float: none;
+	margin: 10px 0 0;
+}
+
+.tablenav.top .displaying-num {
+	display: block;
+}
+
+.tablenav.bottom .tablenav-pages {
+	display: none;
+}
+
+#doaction2,
+#post-query-submit {
+	margin-top: 15px;
+	display: block;
+}
