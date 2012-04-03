@@ -1,11 +1,12 @@
 
 jQuery( function($) {
 
-	search = $('.search-box')
-		.hide()
-		.find('input[name="s"]')
+	search = $('.search-box');
+
+	search
 		.prependTo('.top')
-		.attr('placeholder',$('#search-submit').val())
+		.find('input[name="s"]')
+		.attr('placeholder',$(':submit',search).val())
 	;
 
 	users = $('.top .actions')
@@ -20,10 +21,19 @@ jQuery( function($) {
 	;
 
 	if ( !submit.length ) {
-		$('#search-submit')
+		$('.search-box :submit')
 			.insertBefore('.top .tablenav-pages')
 			.val( pretty_filters.filter )
 		;
+	} else {
+		$('.search-box :submit')
+			.hide()
+		;
 	}
+
+	search.removeClass('search-box');
+
+	if ( !$('.bottom').children(':visible').length )
+		$('.bottom').hide();
 
 } );
