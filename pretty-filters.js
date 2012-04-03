@@ -1,6 +1,9 @@
 
 jQuery( function($) {
 
+	if ( !$('.wrap').length )
+		return;
+
 	search = $('.search-box');
 
 	search

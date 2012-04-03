@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Pretty Filters
 Description:  A proof-of-concept WordPress plugin which adds a much nicer interface to the filters on post listing screens
-Version:      1.2
+Version:      1.2.1
 Plugin URI:   https://github.com/johnbillion/PrettyFilters
 Author:       John Blackbourn
 Author URI:   http://lud.icro.us/

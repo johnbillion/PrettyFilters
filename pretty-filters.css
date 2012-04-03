@@ -1,4 +1,4 @@
-.tablenav {
+.wrap .tablenav {
 	float: right;
 	width: 23.5%;
 	display: block;
@@ -13,31 +13,31 @@
 	margin: 0;
 }
 
-.tablenav.bottom {
+.wrap .tablenav.bottom {
 	float: left;
 	clear: none;
 	margin-top: 15px;
 }
 
-.tablenav .alignleft {
+.wrap .tablenav .alignleft {
 	float: none;
 	padding: 0;
 }
 
-.tablenav p {
+.wrap .tablenav p {
 	margin-top: 0;
 }
 
-.tablenav.top select[name="action"],
-#doaction,
-.tablenav.bottom a.checkforspam,
-.tablenav .clear {
+.wrap .tablenav.top select[name="action"],
+.wrap #doaction,
+.wrap .tablenav.bottom a.checkforspam,
+.wrap .tablenav .clear {
 	display: none;
 }
 
-.tablenav.top input[name="s"],
-.tablenav.top select,
-.tablenav.bottom select {
+.wrap .tablenav.top input[name="s"],
+.wrap .tablenav.top select,
+.wrap .tablenav.bottom select {
 	display: block;
 	width: 99% !important;
 	margin-bottom: 10px;
@@ -51,11 +51,11 @@
 	margin-right: 1.5%;
 }
 
-.tablenav a.checkforspam {
+.wrap .tablenav a.checkforspam {
 	display: inline-block;
 }
 
-.tablenav.top .tablenav-pages {
+.wrap .tablenav.top .tablenav-pages {
 	float: none;
 	margin-top: 15px;
 	border-top: 1px dashed #dfdfdf;
@@ -63,22 +63,22 @@
 	height: auto;
 }
 
-.tablenav.top .view-switch {
+.wrap .tablenav.top .view-switch {
 	float: none;
 	margin: 10px 0 0;
 }
 
-.tablenav.top .displaying-num {
+.wrap .tablenav.top .displaying-num {
 	display: block;
 }
 
-.tablenav.bottom .tablenav-pages {
+.wrap .tablenav.bottom .tablenav-pages {
 	display: none;
 }
 
-#new_role,
-#doaction2,
-#post-query-submit {
+.wrap #new_role,
+.wrap #doaction2,
+.wrap #post-query-submit {
 	margin-top: 15px;
 	display: block;
 }
