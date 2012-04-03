@@ -11,12 +11,13 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	margin: 0 0 15px 1.5%;
+	margin: 0;
 }
 
 .tablenav.bottom {
 	float: left;
 	clear: none;
+	margin-top: 15px;
 }
 
 .tablenav .alignleft {
@@ -24,7 +25,6 @@
 	padding: 0;
 }
 
-.search-box,
 .tablenav.top select[name="action"],
 #doaction,
 .tablenav.bottom a.checkforspam,
@@ -45,6 +45,7 @@
 	float: left;
 	clear: none;
 	width: 75%;
+	margin-right: 1.5%;
 }
 
 .tablenav a.checkforspam {
@@ -72,6 +73,7 @@
 	display: none;
 }
 
+#new_role,
 #doaction2,
 #post-query-submit {
 	margin-top: 15px;

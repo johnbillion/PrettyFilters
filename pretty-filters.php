@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Pretty Filters
 Description:  A proof-of-concept WordPress plugin which adds a much nicer interface to the filters on post listing screens
-Version:      1.0
+Version:      1.1
 Plugin URI:   https://github.com/johnbillion/PrettyFilters
 Author:       John Blackbourn
 Author URI:   http://lud.icro.us/
@@ -25,9 +25,7 @@ class PrettyFilters {
 
 	function __construct() {
 
-		add_action( 'load-edit.php',          array( $this, 'add_stuff' ) );
-		add_action( 'load-edit-comments.php', array( $this, 'add_stuff' ) );
-		add_action( 'load-upload.php',        array( $this, 'add_stuff' ) );
+		add_action( 'admin_init', array( $this, 'add_stuff' ) );
 
 	}
 
@@ -44,6 +42,13 @@ class PrettyFilters {
 			$this->plugin_url( 'pretty-filters.js' ),
 			array( 'jquery' ),
 			$this->plugin_ver( 'pretty-filters.js' )
+		);
+		wp_localize_script(
+			'pretty-filters',
+			'pretty_filters',
+			array(
+				'filter' => __( 'Filter' )
+			)
 		);
 
 	}
