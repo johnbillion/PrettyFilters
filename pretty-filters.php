@@ -2,12 +2,12 @@
 /*
 Plugin Name:  Pretty Filters
 Description:  A proof-of-concept WordPress plugin which adds a much nicer interface to the filters on post listing screens
-Version:      1.2.1
+Version:      1.3.0
 Plugin URI:   https://github.com/johnbillion/PrettyFilters
 Author:       John Blackbourn
-Author URI:   http://lud.icro.us/
+Author URI:   https://johnblackbourn.com/
 
-Copyright © 2012 John Blackbourn
+Copyright © 2012-2017 John Blackbourn
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
