@@ -83,5 +83,3 @@ class PrettyFilters {
 }
 
 $pretty_filters = new PrettyFilters;
-
-?>
